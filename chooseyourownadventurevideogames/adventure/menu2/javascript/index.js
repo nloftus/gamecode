@@ -2,17 +2,17 @@
 
 
 
-var resume = false; //if playrer hasnt started a new game, button "resume" wont appear
+var resume = ttue; //if playrer hasnt started a new game, button "resume" wont appear
 
 
 
 
 
-var newgame=false; //if player pressed button "new game" then button "resume" will appear
+var newgame=true; //if player pressed button "new game" then button "resume" will appear
 
 
 
-if(newgame=true) {
+if(newgame=false) {
 
 
 
@@ -26,6 +26,7 @@ if(newgame=true) {
 
 } else {
 
+  resume=true
 
 <script>
 
@@ -34,4 +35,4 @@ if(newgame=true) {
 
 </script>
 
-}
+};
