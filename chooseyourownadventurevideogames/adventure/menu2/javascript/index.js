@@ -2,7 +2,7 @@
 
 
 
-var resume = ttue; //if playrer hasnt started a new game, button "resume" wont appear
+var resume = true; //if playrer hasnt started a new game, button "resume" wont appear
 
 
 
