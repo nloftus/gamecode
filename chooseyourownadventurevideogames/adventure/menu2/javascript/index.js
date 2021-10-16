@@ -19,7 +19,7 @@ if(newgame=false) {
 <script>
 
 
-<a href="/home/nathaniel/Documents/chooseyourownadventurevideogames/adventure/scenes/scene001">Resume</a>
+<a href="../../scenes/scene001">Resume</a>
 
 
 </script>
@@ -31,7 +31,7 @@ if(newgame=false) {
 <script>
 
 
-<a href="/home/nathaniel/Documents/chooseyourownadventurevideogames/adventure/startnewgame(errorifsomeonepressesresumegamewhentheydidntstartanewgame)/html/index.html"></a>
+<a href="../../startnewgame(errorifsomeonepressesresumegamewhentheydidntstartanewgame)/html/index.html"></a>
 
 </script>
 
