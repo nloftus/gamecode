@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dmea7yxlpa60t"]
+
+[ext_resource type="Script" path="res://node.gd" id="1_pd58n"]
+
+[node name="Node" type="Node"]
+script = ExtResource("1_pd58n")
+
+[connection signal="health_changed" from="." to="." method="_on_health_changed"]
