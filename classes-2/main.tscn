@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://bvdox75tsfubx"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_qqnit"]
+[ext_resource type="Script" path="res://character.gd" id="2_frnov"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_qqnit")
+
+[node name="Character" type="Node" parent="."]
+script = ExtResource("2_frnov")
+
+[node name="Character2" type="Node" parent="."]
+script = ExtResource("2_frnov")
+
+[node name="Character3" type="Node" parent="."]
+script = ExtResource("2_frnov")

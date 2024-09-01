@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://sm4lndvw5itk"]
+
+[ext_resource type="Script" path="res://node.gd" id="1_jch7n"]
+[ext_resource type="Script" path="res://character.gd" id="2_awayd"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_jch7n")
+
+[node name="Character" type="Node" parent="."]
+script = ExtResource("2_awayd")
+profession = "Knight who says NI"
+health = 60
+
+[node name="Character2" type="Node" parent="."]
+script = ExtResource("2_awayd")
+profession = "Lumberjack"
+health = 100
+
+[node name="Character3" type="Node" parent="."]
+script = ExtResource("2_awayd")
+profession = "Starchy"
+health = 340
